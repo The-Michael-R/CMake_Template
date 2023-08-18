@@ -1,9 +1,10 @@
 {
     "configurations": [
         {
+            "configurationProvider": "none",
+            "compilerPath": "/usr/bin/gcc",
             "name": "cmake_template",
             "compileCommands": "${workspaceFolder}/build/compile_commands.json",
-            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
             "cStandard": "c23",
             "cppStandard": "c++14",
             "intelliSenseMode": "linux-gcc-x64"

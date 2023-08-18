@@ -1,10 +1,11 @@
 {
-//    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-    "C_Cpp.default.configurationProvider": "none",
-    "C_Cpp.default.compileCommands": "ms-vscode.cmake-tools",
     "c-cpp-flylint.includePaths": [
         "${workspaceFolder}/libs/include",
         "${workspaceFolder}/build",
         "${workspaceFolder}/src"
     ],
+    "files.associations": {
+        "*.h": "c",
+        "*.in": "c"
+    },
 }
